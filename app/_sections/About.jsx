@@ -28,8 +28,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I'm Arpit</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in frontend
-                and backend development
+                With 4 years of coding experience, I've honed my skills in Full
+                stack web development, Software engineering and Game design
               </p>
             </div>
           </div>
@@ -44,7 +44,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in Javascript, Java, Python, C/C++
+                I have worked with Java, Python, C/C++, C#, MySQL, Javascript,
+                Typescript, and many other developer tools.
               </p>
             </div>
           </div>

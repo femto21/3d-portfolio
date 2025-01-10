@@ -23,8 +23,8 @@ const Contact = () => {
     setLoading(true);
     try {
       await emailjs.send(
-        "service_n6bgmoo",
-        "template_6i0mva5",
+        process.env.EMAILJS_SERVICE_ID,
+        process.env.EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Arpit",
@@ -32,6 +32,7 @@ const Contact = () => {
           to_email: "ar700601@dal.ca",
           message: form.message,
         },
+        // process.env.EMAILJS_PUBLIC_KEY
         "XEK0o2y_XlC6LNpu0"
       );
       setLoading(false);
@@ -56,7 +57,7 @@ const Contact = () => {
           alt="terminal background"
           className="absolute inset-0 min-h-screen"
         />
-        <div className="contact-container">
+        <div className="pt-10 contact-container">
           <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you're looking to build a new website, improve your existing
