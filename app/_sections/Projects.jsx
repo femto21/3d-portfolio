@@ -64,7 +64,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p>Check Live site</p>
+              <p>Github</p>
               <img src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow" />
             </a>
           </div>

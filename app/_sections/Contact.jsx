@@ -16,15 +16,13 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  // service_n6bgmoo
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     try {
       await emailjs.send(
-        process.env.EMAILJS_SERVICE_ID,
-        process.env.EMAILJS_TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Arpit",
@@ -32,8 +30,7 @@ const Contact = () => {
           to_email: "ar700601@dal.ca",
           message: form.message,
         },
-        // process.env.EMAILJS_PUBLIC_KEY
-        "XEK0o2y_XlC6LNpu0"
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       );
       setLoading(false);
       alert("Your message has been sent!");
@@ -50,7 +47,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="contact">
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img
           src="/assets/terminal.png"
