@@ -1,3 +1,5 @@
+import path from "path";
+
 export const navLinks = [
   {
     id: 1,
@@ -11,8 +13,8 @@ export const navLinks = [
   },
   {
     id: 3,
-    name: "Work",
-    href: "#work",
+    name: "Projects",
+    href: "#projects",
   },
   {
     id: 4,
@@ -63,6 +65,42 @@ export const myProjects = [
 
     spotlight: "/assets/spotlight2.png",
     tags: [],
+  },
+  {
+    title: "Femto AI",
+    desc: "An AI chatbot, featuring the character Femto/Griffith from 'Berserk', and powered by Open AI API. Users can signup to the website and start interacting with the chatbot. Since I have to pay for the API, each user gets around 500 tokens (around 3-4 medium length answers).",
+    subdesc:
+      "The chatbot is built using Next.js, React, Tailwind CSS, Open AI, Clerk, and Daisy UI.",
+    href: "https://github.com/femto21/Femto-AI",
+    texture: "/textures/project/project3/mp4",
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Next",
+        path: "/assets/next.png",
+      },
+      {
+        id: 4,
+        name: "Clerk",
+        path: "/assets/clerk.webp",
+      },
+      {
+        id: 5,
+        name: "Open AI",
+        path: "/assets/openai.png",
+      },
+    ],
   },
 ];
 
