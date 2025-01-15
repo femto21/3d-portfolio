@@ -72,7 +72,7 @@ export const myProjects = [
     subdesc:
       "The chatbot is built using Next.js, React, Tailwind CSS, Open AI, Clerk, and Daisy UI.",
     href: "https://github.com/femto21/Femto-AI",
-    texture: "/textures/project/project3/mp4",
+    texture: "/textures/project/project3.mp4",
     spotlight: "/assets/spotlight3.png",
     tags: [
       {
@@ -93,12 +93,107 @@ export const myProjects = [
       {
         id: 4,
         name: "Clerk",
-        path: "/assets/clerk.webp",
+        path: "/assets/clerk.png",
       },
       {
         id: 5,
         name: "Open AI",
         path: "/assets/openai.png",
+      },
+    ],
+  },
+  {
+    title: "Tank Wars (in progress)",
+    desc: "A huge python 2-player game consisting of more than a dozen interconnected classes. The game is built using the pygame community edition library and uses event and time-driven polling strategies to dynamically update the state of in-game objects such as cannonballs and turrets. The project also implements a MongoDB database to save player scores.",
+    subdesc: "",
+    href: "https://github.com/femto21/TankWars",
+    texture: "/textures/project/project4.mp4",
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/python.png",
+      },
+      {
+        id: 2,
+        name: "Pygame",
+        path: "assets/pygame.png",
+      },
+      {
+        id: 3,
+        name: "MongoDB",
+        path: "/assets/mongo.svg",
+      },
+    ],
+  },
+  {
+    title: "Break The Box",
+    desc: "A single player game made in Java using the Java canvas class. It implements a game loop using active rendering. The user controls a turret at the bottom of the screen using the left and right arrow keys, and the shoots cannonballs using the spacebar. Boxes fall from the sky that need to be destroyed. If any box touches the ground then the game ends.",
+    subdesc: "",
+    href: "https://github.com/femto21/BreakTheBox",
+    texture: "/textures/project/project5.mp4",
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "Java",
+        path: "/assets/java.png",
+      },
+    ],
+  },
+  {
+    title: "Flappy Bird (Femto Edition)",
+    desc: "The good ol' single player game made in Java using the Java swing class. It implements a game loop using passive rendering. The user controls a bird, making it flap its wings to soar up and avoid the obstacles. The game ends as soon as the bird goes off-screen or touches an obstacle.",
+    subdesc: "",
+    href: "https://github.com/femto21/FlappyBird",
+    texture: "/textures/project/project6.mp4",
+    spotlight: "/assets/spotlight6.png",
+    tags: [
+      {
+        id: 1,
+        name: "Java",
+        path: "/assets/java.png",
+      },
+    ],
+  },
+  {
+    title: "Beat The Boss",
+    desc: "A quiz format game where the player needs to answer questions correctly to deal damage to the boss. The game is made with the Python Tkinter class. There is an alternative version of this game as well made using the turtle class. The results of the game are also stored in a MySQL database.",
+    subdesc: "",
+    href: "https://github.com/femto21/BeatTheBoss",
+    texture: "/textures/project/project7.mp4",
+    spotlight: "/assets/spotlight7.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/python.png",
+      },
+    ],
+  },
+  {
+    title: "Calculators and Converters",
+    desc: "A web application, comprising of 4 different calculators and converters - An arithmetic calculator, a temperature converter, a BMI calculator, and a weight converter. It is built using HTML, CSS and Javascript.",
+    subdesc: "",
+    href: "https://github.com/femto21/CalculatorsAndConverters",
+    texture: "/textures/project/project8.mp4",
+    spotlight: "/assets/spotlight8.png",
+    tags: [
+      {
+        id: 1,
+        name: "HTML",
+        path: "/assets/html.png",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "/assets/css.png",
+      },
+      {
+        id: 3,
+        name: "Javascript",
+        path: "/assets/javascript.png",
       },
     ],
   },
