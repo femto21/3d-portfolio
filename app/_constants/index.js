@@ -31,7 +31,6 @@ export const myProjects = [
       "Built as a Web app with Next.js 14, Three.js, React,  GSAP, and Tailwind CSS, this portfolio is designed for optimal performance and accessiblity for all devices",
     href: "https://github.com/femto21/3d-portfolio",
     texture: "/textures/project/project1.mp4",
-
     spotlight: "/assets/spotlight1.png",
     tags: [
       {
@@ -55,16 +54,6 @@ export const myProjects = [
         path: "/assets/three.png",
       },
     ],
-  },
-  {
-    title: "Updating Soon",
-    desc: "I'm working to add other projects here, meanwhile you can check them out on my github - https://github.com/femto21",
-    subdesc: "",
-    href: "https://github.com/femto21",
-    texture: "/textures/project/project2.mp4",
-
-    spotlight: "/assets/spotlight2.png",
-    tags: [],
   },
   {
     title: "Femto AI",
@@ -147,8 +136,8 @@ export const myProjects = [
     desc: "The good ol' single player game made in Java using the Java swing class. It implements a game loop using passive rendering. The user controls a bird, making it flap its wings to soar up and avoid the obstacles. The game ends as soon as the bird goes off-screen or touches an obstacle.",
     subdesc: "",
     href: "https://github.com/femto21/FlappyBird",
-    texture: "/textures/project/project6.mp4",
-    spotlight: "/assets/spotlight6.png",
+    texture: "/textures/project/project3.mp4",
+    spotlight: "/assets/spotlight3.png",
     tags: [
       {
         id: 1,
@@ -162,13 +151,18 @@ export const myProjects = [
     desc: "A quiz format game where the player needs to answer questions correctly to deal damage to the boss. The game is made with the Python Tkinter class. There is an alternative version of this game as well made using the turtle class. The results of the game are also stored in a MySQL database.",
     subdesc: "",
     href: "https://github.com/femto21/BeatTheBoss",
-    texture: "/textures/project/project7.mp4",
-    spotlight: "/assets/spotlight7.png",
+    texture: "/textures/project/project2.mp4",
+    spotlight: "/assets/spotlight2.png",
     tags: [
       {
         id: 1,
         name: "Python",
         path: "/assets/python.png",
+      },
+      {
+        id: 2,
+        name: "MySQL",
+        path: "/assets/mysql.svg",
       },
     ],
   },
@@ -177,8 +171,8 @@ export const myProjects = [
     desc: "A web application, comprising of 4 different calculators and converters - An arithmetic calculator, a temperature converter, a BMI calculator, and a weight converter. It is built using HTML, CSS and Javascript.",
     subdesc: "",
     href: "https://github.com/femto21/CalculatorsAndConverters",
-    texture: "/textures/project/project8.mp4",
-    spotlight: "/assets/spotlight8.png",
+    texture: "/textures/project/project4.mp4",
+    spotlight: "/assets/spotlight4.png",
     tags: [
       {
         id: 1,
