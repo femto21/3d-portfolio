@@ -30,7 +30,7 @@ export const myProjects = [
     subdesc:
       "Built as a Web app with Next.js 14, Three.js, React,  GSAP, and Tailwind CSS, this portfolio is designed for optimal performance and accessiblity for all devices",
     href: "https://github.com/femto21/3d-portfolio",
-    texture: "/textures/project/project1.mp4",
+    texture: "/textures/project/portfolio.mp4",
     spotlight: "/assets/spotlight1.png",
     tags: [
       {
@@ -61,7 +61,7 @@ export const myProjects = [
     subdesc:
       "The chatbot is built using Next.js, React, Tailwind CSS, Open AI, Clerk, and Daisy UI.",
     href: "https://github.com/femto21/Femto-AI",
-    texture: "/textures/project/project3.mp4",
+    texture: "/textures/project/femtoai.mp4",
     spotlight: "/assets/spotlight3.png",
     tags: [
       {
@@ -96,7 +96,7 @@ export const myProjects = [
     desc: "A huge python 2-player game consisting of more than a dozen interconnected classes. The game is built using the pygame community edition library and uses event and time-driven polling strategies to dynamically update the state of in-game objects such as cannonballs and turrets. The project also implements a MongoDB database to save player scores.",
     subdesc: "",
     href: "https://github.com/femto21/TankWars",
-    texture: "/textures/project/project4.mp4",
+    texture: "/textures/project/tankwars.mp4",
     spotlight: "/assets/spotlight4.png",
     tags: [
       {
@@ -121,7 +121,7 @@ export const myProjects = [
     desc: "A single player game made in Java using the Java canvas class. It implements a game loop using active rendering. The user controls a turret at the bottom of the screen using the left and right arrow keys, and the shoots cannonballs using the spacebar. Boxes fall from the sky that need to be destroyed. If any box touches the ground then the game ends.",
     subdesc: "",
     href: "https://github.com/femto21/BreakTheBox",
-    texture: "/textures/project/project5.mp4",
+    texture: "/textures/project/breakthebox.mp4",
     spotlight: "/assets/spotlight5.png",
     tags: [
       {
@@ -136,7 +136,7 @@ export const myProjects = [
     desc: "The good ol' single player game made in Java using the Java swing class. It implements a game loop using passive rendering. The user controls a bird, making it flap its wings to soar up and avoid the obstacles. The game ends as soon as the bird goes off-screen or touches an obstacle.",
     subdesc: "",
     href: "https://github.com/femto21/FlappyBird",
-    texture: "/textures/project/project3.mp4",
+    texture: "/textures/project/flappybird.mp4",
     spotlight: "/assets/spotlight3.png",
     tags: [
       {
@@ -151,7 +151,7 @@ export const myProjects = [
     desc: "A quiz format game where the player needs to answer questions correctly to deal damage to the boss. The game is made with the Python Tkinter class. There is an alternative version of this game as well made using the turtle class. The results of the game are also stored in a MySQL database.",
     subdesc: "",
     href: "https://github.com/femto21/BeatTheBoss",
-    texture: "/textures/project/project2.mp4",
+    texture: "/textures/project/beattheboss.mp4",
     spotlight: "/assets/spotlight2.png",
     tags: [
       {
@@ -171,7 +171,7 @@ export const myProjects = [
     desc: "A web application, comprising of 4 different calculators and converters - An arithmetic calculator, a temperature converter, a BMI calculator, and a weight converter. It is built using HTML, CSS and Javascript.",
     subdesc: "",
     href: "https://github.com/femto21/CalculatorsAndConverters",
-    texture: "/textures/project/project4.mp4",
+    texture: "/textures/project/candc.mp4",
     spotlight: "/assets/spotlight4.png",
     tags: [
       {

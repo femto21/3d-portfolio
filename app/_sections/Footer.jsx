@@ -1,29 +1,50 @@
+import {
+  faDiscord,
+  faGithubAlt,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Footer = () => {
   return (
     <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
       <div className="text-white-500 flex gap-2">
-        <p>Terms & Conditions</p>
-        <p>|</p>
-        <p>Privacy Policy</p>
+        <p>Feel free to contact me on my socials!</p>
       </div>
 
       <div className="flex gap-3">
         <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+          <a href="https://github.com/femto21" target="_blank">
+            <FontAwesomeIcon
+              icon={faGithubAlt}
+              style={{ color: "#dfd8f3" }}
+              className="m-auto h-1/2 w-1/2"
+            />
+          </a>
         </div>
         <div className="social-icon">
-          <img
-            src="/assets/twitter.svg"
-            alt="twitter"
-            className="w-1/2 h-1/2"
-          />
+          <a
+            href="https://discord.com/users/530748472278646805"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faDiscord}
+              style={{ color: "#dfd8f3" }}
+              className="m-auto h-1/2 w-1/2"
+            />
+          </a>
         </div>
         <div className="social-icon">
-          <img
-            src="/assets/instagram.svg"
-            alt="instagram"
-            className="w-1/2 h-1/2"
-          />
+          <a
+            href="https://www.linkedin.com/in/arpit-gahlot-1bb63a300"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              style={{ color: "#dfd8f3" }}
+              className="m-auto h-1/2 w-1/2"
+            />
+          </a>
         </div>
       </div>
 

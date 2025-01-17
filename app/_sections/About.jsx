@@ -39,7 +39,7 @@ const About = () => {
             <img
               src="/assets/grid2.png"
               alt="grid-2"
-              className="w-full sm:w-[276px] h-fit object-contain"
+              className="w-full sm:h-[276px] h-fit object-contain"
             />
             <div>
               <p className="grid-headtext">Tech Stack</p>
